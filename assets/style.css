@@ -245,6 +245,13 @@ ul li{
     width: 30px;
     padding: 20px;
 }
+.span-li{
+    border: 2px solid #979393;
+    height: 10px;
+    width: 10px;
+    padding: 0px 12px;
+    margin: 5px;
+}
 .hr-left{
     border: 1px solid #979393;
     margin: 5px 0px;
@@ -253,7 +260,7 @@ ul li{
     text-align: right !important;
 }
 .ul-car{
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 .ul-car li{
     list-style-type: disc !important;
@@ -265,4 +272,16 @@ ul li{
 }
 .w-100{
     width: 100%;
+}
+.quetion .ul-car {
+    margin: 0px 42px;
+}
+.grid-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.ul-li-car li{
+    list-style: number;
+    margin-right: 20px;
 }
