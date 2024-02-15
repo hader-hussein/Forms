@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  top: 10px;
+  left: 10px;
+  transform: scale(0);
+  animation: grow 2s linear infinite;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="circle-container">
+        <span class="circle"></span>
+      </div>
+      <script>
+        const circle = document.querySelector('.circle');
+
+function animateCircle(size, color, duration) {
+  circle.style.width = `${size}px`;
+  circle.style.height = `${size}px`;
+  circle.style.backgroundColor = color;
+  circle.style.animationDuration = `${duration}s`;
+}
+
+animateCircle(50, 'blue', 3);
+      </script>
+</body>
+</html>
