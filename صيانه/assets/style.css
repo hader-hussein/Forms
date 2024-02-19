@@ -1,0 +1,131 @@
+* {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #fff;
+     font-weight: bold;
+ }
+h1,h2,h3,h4,h5,h6{
+     font-size: 20px;
+     font-weight: bold;
+}
+p{
+     font-weight: bold;
+     font-size: 18px;  
+}
+.d-flex{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.pt-4{
+     padding-top: 14px;
+
+}
+.title-hader{
+     font-size:xx-large;
+}
+.text-center{
+     text-align: center;
+}
+.title-title{
+     font-size: 25px;
+     font-weight: 800;
+ }
+ .ul-content{
+     margin-top: 30px;
+ }
+ .ul-content li{
+     margin-right: 20px;
+     margin-bottom: 30px;
+     list-style-type: disc !important;
+     list-style: disc !important;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ .span-span{
+     background-color: green;
+ }
+ .span-categery{
+     background-color: gray;
+ }
+
+ .styled-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 5px;
+ }
+ 
+ .styled-table th, .styled-table td {
+     border: 1px solid  #979393;
+     padding: 4px;
+     text-align: right;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 20px;
+ }
+ 
+ .styled-table th {
+     background-color: #f2f2f2;
+     font-weight: bold;
+    
+ }
+ 
+ .styled-table tr:nth-child(even),.styled-table tr:nth-child(odd) {
+     background-color: #fff;
+ }
+ 
+ .styled-table tr:hover {
+     background-color: #ddd;
+ }
+ .styled-table caption{
+     border: 3px solid #f2f2f2;
+     padding: 10px 0px;
+     color: #000;
+     font-weight: bold;
+ }
+ .ul-number li{
+list-style: decimal;
+margin-right: 30px;
+margin-bottom: 16px;
+ }
+ .table-ltr{
+    direction: ltr;
+ }
+ .table-ltr tr td{
+    text-align: left;
+ }
+ .table-ltr tr td:nth-child(2),.table-ltr tr th{
+    text-align: left !important;
+ }
+ .text-left{
+    text-align: left !important;
+ }
+ .table-center tr th,.table-center tr td{
+    text-align: center;
+ }
+ .color-yellow{
+    background-color: yellow;
+ }
+ .color-g{
+    background-color: rgba(3, 181, 3, 0.716);
+ }
+ .color-gree{
+    background-color: #97939395;
+ }
+ .mb-5{
+    margin-bottom: 10px;
+ }
+ .table-ltr-td tr td:nth-child(3){
+    text-align: right !important;
+ }
+ .text-left{
+    text-align: left !important;
+ }
